@@ -1,0 +1,19 @@
+{
+  "name": "orzilca-skills",
+  "owner": {
+    "name": "orzilca",
+    "url": "https://github.com/orzilca"
+  },
+  "metadata": {
+    "description": "Skills for Claude Code"
+  },
+  "plugins": [
+    {
+      "name": "disk-cleanup",
+      "source": "./disk-cleanup",
+      "description": "Find what's filling your Mac's disk with a read-only scan, then get one-line cleanup commands to run yourself. Never deletes anything on its own.",
+      "category": "productivity",
+      "keywords": ["macos", "disk-space", "disk-cleanup", "storage", "cache"]
+    }
+  ]
+}

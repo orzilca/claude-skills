@@ -1,0 +1,12 @@
+{
+  "name": "disk-cleanup",
+  "version": "1.0.0",
+  "description": "Find what's filling your Mac's disk with a read-only scan, then get one-line cleanup commands to run yourself. Never deletes anything on its own.",
+  "author": {
+    "name": "orzilca",
+    "url": "https://github.com/orzilca"
+  },
+  "homepage": "https://github.com/orzilca/claude-skills",
+  "repository": "https://github.com/orzilca/claude-skills",
+  "keywords": ["macos", "disk-space", "disk-cleanup", "storage", "cache"]
+}

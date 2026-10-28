@@ -12,12 +12,32 @@ macOS only.
 
 ## Install
 
+In Claude Code (2.1.275 or later):
+
+```
+/plugin install disk-cleanup --marketplace orzilca/claude-skills
+```
+
+On older versions, add the marketplace first, then install:
+
+```
+/plugin marketplace add orzilca/claude-skills
+```
+
+```
+/plugin install disk-cleanup@orzilca-skills
+```
+
+Then say "my disk is full", or run `/disk-cleanup:disk-cleanup`.
+
+### Manual install (no plugin)
+
 ```bash
 git clone https://github.com/orzilca/claude-skills.git
 ```
 
 ```bash
-cp -R claude-skills/disk-cleanup ~/.claude/skills/
+cp -R claude-skills/disk-cleanup/skills/disk-cleanup ~/.claude/skills/
 ```
 
-Then, in Claude Code, run `/disk-cleanup` or just say "my disk is full".
+Then run `/disk-cleanup`.
